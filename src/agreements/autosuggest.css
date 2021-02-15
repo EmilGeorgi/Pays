@@ -1,0 +1,80 @@
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: auto;
+    max-height: 400px;
+  }
+  
+  .sugg-option {
+    display: flex;
+  }
+  .icon-wrap img {
+    width: 50px;
+    margin-right: 10px;
+  }
+  .react-autosuggest__suggestions-container--open {
+    height: 150px;
+    position: absolute;
+    top: 100%;
+  }
+  .react-autosuggest__suggestions-list{
+    overflow: scroll;
+    height: 150px;
+  }
+  .react-autosuggest__container {
+    position: relative;
+    transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    width: 100%;
+    height: 48px;
+  }
+  .react-autosuggest__container:focus {
+    position: relative;
+    transition: background-color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+    background-color: rgba(0, 0, 0, 0.04);
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1.1876em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+    cursor: text;
+    display: inline-flex;
+    margin-bottom: 400px;
+  }
+  .react-autosuggest__input {
+    padding-top: 23px;
+    padding-bottom: 6px;
+    padding: 27px 12px 10px;
+    font: inherit;
+    color: currentColor;
+    width: 100%;
+    border: 0;
+    height: 1.1876em;
+    margin: 0;
+    display: block;
+    min-width: 0;
+    background: none;
+    box-sizing: content-box;
+    animation-name: mui-auto-fill-cancel;
+    letter-spacing: inherit;
+    animation-duration: 10ms;
+    -webkit-tap-highlight-color: transparent;
+  }
